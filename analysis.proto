@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package analysis;
+
+// Serviço para consultar as análises anteriores
+service AnalysisService {
+  // Método para obter as análises anteriores
+  rpc GetPreviousAnalyses (Empty) returns (PreviousAnalysesResponse);
+}
+
+// Mensagem vazia para requisições sem parâmetros
+message Empty {}
+
+// Mensagem para uma análise individual
+message Analysis {
+  string name = 1;
+  string category = 2;
+  int32 progress = 3;
+}
+
+// Resposta que contém uma lista de análises
+message PreviousAnalysesResponse {
+  repeated Analysis analyses = 1;
+}
