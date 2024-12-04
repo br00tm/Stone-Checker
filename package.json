@@ -2,7 +2,7 @@
   "name": "stone-checker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/br00tm/stone-checker.git",
+  "homepage": "https://br00tm.github.io/stone-checker",
   "dependencies": {
     "@grpc/grpc-js": "^1.12.2",
     "@grpc/proto-loader": "^0.7.13",

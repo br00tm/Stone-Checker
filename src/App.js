@@ -9,7 +9,7 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
-    <Router basename="/stone-checker">
+    <Router basename={process.env.NODE_ENV === "production" ? "/stone-checker" : "/"}>
       <Routes>
         {!isAuthenticated ? (
           <Route path="/" element={<Login setAuth={setIsAuthenticated} />} />
