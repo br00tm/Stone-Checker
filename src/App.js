@@ -9,7 +9,7 @@ function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   return (
-    <Router>
+    <Router basename="/stone-checker">
       <Routes>
         {!isAuthenticated ? (
           <Route path="/" element={<Login setAuth={setIsAuthenticated} />} />
