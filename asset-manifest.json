@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/br00tm/stone-checker.git/static/css/main.f5fe0103.css",
+    "main.js": "/br00tm/stone-checker.git/static/js/main.19209b4e.js",
+    "static/js/453.22dfb92b.chunk.js": "/br00tm/stone-checker.git/static/js/453.22dfb92b.chunk.js",
+    "static/media/vialactea.jpg": "/br00tm/stone-checker.git/static/media/vialactea.61af7650a344b4e96fd7.jpg",
+    "static/media/taj-mahal.jpg": "/br00tm/stone-checker.git/static/media/taj-mahal.a99cd6c9718bd425eaaa.jpg",
+    "static/media/marmorepanda.jpg": "/br00tm/stone-checker.git/static/media/marmorepanda.b42a8821fbd92c4ea084.jpg",
+    "index.html": "/br00tm/stone-checker.git/index.html",
+    "main.f5fe0103.css.map": "/br00tm/stone-checker.git/static/css/main.f5fe0103.css.map",
+    "main.19209b4e.js.map": "/br00tm/stone-checker.git/static/js/main.19209b4e.js.map",
+    "453.22dfb92b.chunk.js.map": "/br00tm/stone-checker.git/static/js/453.22dfb92b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5fe0103.css",
+    "static/js/main.19209b4e.js"
+  ]
+}
